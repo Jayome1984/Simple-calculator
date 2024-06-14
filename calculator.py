@@ -12,6 +12,12 @@ def divide(a, b):
         return "Error: Division by zero."
     return a / b
 
+
+def power(a, b):
+
+    return a ** b
+
+
 def main():
     print("Simple Calculator")
     print("Select operation:")
